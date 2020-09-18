@@ -1,0 +1,25 @@
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.box1{
+	background-color:black;
+}
+.box2{
+	background-color:black;	
+}
+body{
+	background-image: url('img/Fondnetflix.jpg');
+  	background-size: cover;
+  	background-repeat: no-repeat;
+}
+
+.zoom {
+  transition: transform .6s;
+ 
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1); 
+}
